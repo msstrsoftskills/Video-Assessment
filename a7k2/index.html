@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Candidate Video Assessment</title>
+    <title>Video Assessment</title>
     <!-- Tailwind CSS for styling -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -34,7 +34,7 @@
         <div class="w-full bg-slate-700/50 border border-slate-600 rounded-xl p-4 mb-6">
             <h2 class="text-xs font-semibold uppercase tracking-wider text-indigo-400 mb-1">Assessment Topic:</h2>
             <p class="text-base text-slate-200 font-medium">
-                "Describe a complex project you led or contributed to, the challenges faced, and how you ensured its successful delivery."
+                "Speak about your favourite object/color or a memorable moment in your life."
             </p>
         </div>
 
@@ -275,7 +275,7 @@
 
             const fileExtension = mimeTypeUsed.includes('mp4') ? 'mp4' : 'webm';
             const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-            const filename = `Candidate_Assessment_${timestamp}.${fileExtension}`;
+            const filename = `Video_Assessment_${timestamp}.${fileExtension}`;
 
             const a = document.createElement('a');
             a.style.display = 'none';
